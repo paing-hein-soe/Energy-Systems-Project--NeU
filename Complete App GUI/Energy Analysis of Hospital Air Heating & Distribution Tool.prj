@@ -1,0 +1,101 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="2221136478" file="D:\Northeastern Univeristy - Docs -Drive linked\ENSY5000_Fundamentals of Energy Systems Integration\Project\Project_Presentation\AppBuilding\Energy Analysis of Hospital Air Heating &amp; Distribution Tool.prj" location="D:\Northeastern Univeristy - Docs -Drive linked\ENSY5000_Fundamentals of Energy Systems Integration\Project\Project_Presentation\AppBuilding" name="Energy Analysis of Hospital Air Heating &amp; Distribution Tool" target="target.mlapps" target-name="Package App">
+    <param.appname>Energy Analysis of Hospital Air Heating &amp; Distribution Tool</param.appname>
+    <param.authnamewatermark>Paing Hein Soe</param.authnamewatermark>
+    <param.email />
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary>Course Instructor: Prof. Umit Coskun, NEU</param.summary>
+    <param.description>Energy Analysis of Heating Air Distribution for a Hospital
+Paing Hein Soe
+Course Instructor: Prof. Umit Coskun, NEU</param.description>
+    <param.screenshot>${PROJECT_ROOT}\Option4.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>66f3abdd-cf6b-4848-8f9c-38cfff2f168e</param.guid>
+    <unset>
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\HospitalAirDistributionApp.m</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\All_Cost_MonthlyOrWinter_CHEHP_Fn.m</file>
+      <file>${PROJECT_ROOT}\CarbonEmissions_MonthlyOrWinter_Fn.m</file>
+      <file>${PROJECT_ROOT}\Distribution_Hospital_Fn.m</file>
+      <file>${PROJECT_ROOT}\duration_fn.m</file>
+      <file>${PROJECT_ROOT}\Energy_Cost_Period_Fn.m</file>
+      <file>${PROJECT_ROOT}\Exg_Balance_Table_Option1_Fn.m</file>
+      <file>${PROJECT_ROOT}\Exg_Balance_Table_Option2_Fn.m</file>
+      <file>${PROJECT_ROOT}\Exg_Balance_Table_Option4_Fn.m</file>
+      <file>${PROJECT_ROOT}\Fan_Fn.m</file>
+      <file>${PROJECT_ROOT}\Furnace_Direct_Option1_Fn.m</file>
+      <file>${PROJECT_ROOT}\HeatingAir_Fn.m</file>
+      <file>${PROJECT_ROOT}\HeatingWhole_Direct_Option1_Fn.m</file>
+      <file>${PROJECT_ROOT}\HeatingWhole_Option2_Fn.m</file>
+      <file>${PROJECT_ROOT}\HeatingWhole_Option3_Fn.m</file>
+      <file>${PROJECT_ROOT}\HeatingWhole_Option4_Fn.m</file>
+      <file>${PROJECT_ROOT}\Option1.m</file>
+      <file>${PROJECT_ROOT}\Option1.png</file>
+      <file>${PROJECT_ROOT}\Option2.m</file>
+      <file>${PROJECT_ROOT}\Option2.png</file>
+      <file>${PROJECT_ROOT}\Option3.m</file>
+      <file>${PROJECT_ROOT}\Option3.png</file>
+      <file>${PROJECT_ROOT}\Option4.m</file>
+      <file>${PROJECT_ROOT}\Option4.png</file>
+      <file>${PROJECT_ROOT}\Overall_EneExeEff_Fn.m</file>
+      <file>${PROJECT_ROOT}\Overall_EneExeEff_Option4_Fn.m</file>
+      <file>${PROJECT_ROOT}\States_Fn.m</file>
+      <file>${PROJECT_ROOT}\States_Option3_Fn.m</file>
+      <file>${PROJECT_ROOT}\States_Option4_Fn.m</file>
+      <file>${PROJECT_ROOT}\SubSystems_EnergyPeriod_Fn.m</file>
+      <file>${PROJECT_ROOT}\SubSystems_EnergyRate_Fn.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="D:\Northeastern Univeristy - Docs -Drive linked\ENSY5000_Fundamentals of Energy Systems Integration\Project\Project_Presentation" name="AppBuilding" optional="false">D:\Northeastern Univeristy - Docs -Drive linked\ENSY5000_Fundamentals of Energy Systems Integration\Project\Project_Presentation\AppBuilding</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2024a</root>
+      <toolboxes>
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
